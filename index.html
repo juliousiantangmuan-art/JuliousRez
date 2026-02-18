@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yummy Recipes</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #333;
+      overflow-y: auto;
+    }
+
+    header {
+      background-color: #ffffff;
+      color: white;
+      padding: 20px;
+      margin-left: 150px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #fc6203;
+      padding: 20px;
+      text-align: left;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100vh;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: small;
+      font-weight: bold;
+      display: block;
+      margin: 90px 35px;
+      padding: 10px;
+      text-shadow: 0 0 10px #ffd7be;
+      background-color: #000000;
+      color: white;
+      text-decoration: none;
+      border-radius: 15px;
+
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 30px;
+      max-width: 1100px;
+      margin-left: 220px;
+      min-height: 50vh;
+    }
+
+
+    .recipes {
+      width: calc(100% - 220px);
+      margin-left: 80px;
+      padding: 30px;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content a {
+      display: inline-block;
+      padding: 8px 15px;
+      margin-left: 290px;
+      background-color: #000000;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      margin-left: 180px;
+    }
+
+    .idk {
+      color: #ffd7be;
+      text-shadow: 0 0 10px #ffffff;
+    }
+    .container h2 {
+      text-align: center;
+      margin-right: 70px;
+      color: #040404;
+      text-shadow: 0 0 50 #ffd7be;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="home.html">HOME</a>
+    <a href="recipe.html">RECIPE</a>
+    <a href="contactus.html">CONTACT US</a>
+    <a href="aboutus.html">ABOUT US</a>
+  </nav>
+
+  <header>
+    <h1 class="idk">Yoshing's Foods</h1>
+  </header>
+
+  <div class="container">
+    <h2>Appetizer</h2>
+    <br>
+
+    <div class="recipes">
+      <div class="card">
+        <img src="Meatballs.jpg" alt="Meatballs">
+        <div class="card-content">
+          <a href="recipe.html">RECIPE</a>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="card">
+        <img src="finger-sandwiches.jpg" alt="finger-sandwiches">
+        <div class="card-content">
+          <a href="recipe.html">RECIPE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Main dish</h2>
+    <br>
+
+    <div class="recipes">
+      <div class="card">
+        <img src="pasta.jpg" alt="pasta">
+        <div class="card-content">
+          <a href="recipe.html">RECIPE</a>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="card">
+        <img src="Roast Chicken.jpg" alt="Roast Chicken">
+        <div class="card-content">
+          <a href="recipe.html">RECIPE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Dessert</h2>
+    <br>
+
+    <div class="recipes">
+      <div class="card">
+        <img src="Caramel-Topped Ice Cream.jpg" alt="Caramel-Topped Ice Cream">
+        <div class="card-content">
+          <a href="recipe.html">RECIPE</a>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="card">
+        <img src="Fudgy Chocolate Squares.jpg" alt="Fudgy Chocolate Squares">
+        <div class="card-content">
+          <a href="recipe.html">RECIPE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Drinks</h2>
+    <br>
+
+    <div class="recipes">
+      <div class="card">
+        <img src="Strawberry Daiquiri.jpg" alt="Strawberry Daiquiri">
+        <div class="card-content">
+          <a href="recipe.html">RECIPE</a>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="card">
+        <img src="Dalgona Coffee.jpg" alt="Dalgona Coffee">
+        <div class="card-content">
+          <a href="recipe.html">RECIPE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <p>© All Reserved 2026@ by: Julious Ian Tangmuan</p>
+  </footer>
+
+</body>
+</html>
